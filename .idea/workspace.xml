@@ -4,11 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00c09930-424b-4b04-bed3-19ee9be36d56" name="변경" comment="" />
+    <list default="true" id="00c09930-424b-4b04-bed3-19ee9be36d56" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_OOP_src/AudioBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_OOP_src/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_OOP_src/Ebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_OOP_src/Polymorphism_simple_example/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_OOP_src/Polymorphism_simple_example/yale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_OOP_src/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_OOP_src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_OOP_src/harvard.java" beforeDir="false" afterPath="$PROJECT_DIR$/13_OOP_src/Polymorphism_simple_example/harvard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_OOP_src/school.java" beforeDir="false" afterPath="$PROJECT_DIR$/13_OOP_src/Polymorphism_simple_example/school.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,28 +36,38 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HhOwtBBIWV01WCfXlwR1HE6CGC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "SDK",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/carrot/self-study/Language-Java/13_OOP_src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDK&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;power.mode.ii&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/13_OOP_src" />
+      <recent name="$PROJECT_DIR$/library" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/13_OOP_src/practice" />
+      <recent name="$PROJECT_DIR$/13_OOP_src" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -50,7 +79,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668734090489</updated>
-      <workItem from="1668734091648" duration="725000" />
+      <workItem from="1668734091648" duration="8567000" />
+      <workItem from="1668750799041" duration="242000" />
+      <workItem from="1668751043394" duration="1331000" />
     </task>
     <servers />
   </component>

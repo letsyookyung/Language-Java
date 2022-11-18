@@ -216,7 +216,8 @@ Java
 </details>
 
 <details>
-<summary>(3:28:38) Object Oriented Programming</summary>
+<summary>(3:28:38) Object Oriented Programming (detail study of OOP is on notion page) </summary>
+
 </details>
 
 
