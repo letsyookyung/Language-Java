@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00c09930-424b-4b04-bed3-19ee9be36d56" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/14_reference/A.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/14_reference/Copy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/14_reference/Reference.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/14_reference/reference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/14_reference/runReferenceWithMethod.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/15_generic/EmployeeInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/15_generic/EmployeeInfo2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/15_generic/Generic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/15_generic/GenericExtends.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/15_generic/GenericNo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/15_generic/Info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/15_generic/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/15_generic/Person2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/15_generic/generic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/15_generic/generic2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/01_메소드/method.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/01_메소드/method.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +74,7 @@
       <updated>1668734090489</updated>
       <workItem from="1668734091648" duration="8567000" />
       <workItem from="1668750799041" duration="242000" />
-      <workItem from="1668751043394" duration="20537000" />
+      <workItem from="1668751043394" duration="23826000" />
     </task>
     <servers />
   </component>

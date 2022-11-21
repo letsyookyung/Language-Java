@@ -235,12 +235,39 @@ Java
 </details>
 
 <details>
-<summary>3) Class, Instance 이전의 프로그래밍 </summary>
+<summary>3) 클래스와 인스턴스 그리고 객체 </summary>
+
+- 객체 를 만들기 위해서 class(설계도):메소드의 정의/  instance(제품)
+- 변수 = state, 메소드 = behave
+- 메소드화 
+  - 로직이 커지고, 내용이 복잡해지면, => 메소드를 사용해도 문제가 생김 막 섞임
+- 객체화
+  - 경우에 따라 sum도 하고, avg하고 싶을 때가 있음
+  - ex) 계산기 객체를 만들고 싶음
+  - 인스턴스 만듬
+- this = instance 자신
 
 </details>
 
 <details>
-<summary>4) Class member, Instance member </summary>
+<summary>4) 클래스 member, 인스턴스 member </summary>
+
+- 객체도 구성원이 있다. 바로바로
+  - 변수
+  - 메소드
+  - 
+- 클래스의 member
+  - 클래스 변수 (static field) 
+    - static을 맴버(변수,메소드) 앞에 붙이면 클래스의 맴버가 된다.
+    - 인스턴스에 따라서 변하지 않는 값이 필요한 경우
+    - 인스턴스를 생성할 필요가 없는 값을 클래스에 저장하고 싶은 경우
+    - 값의 변경 사항을 모든 인스턴스가 공유해야하는 경우이 된다는 => 모든 메소드/인스턴스에서 동일하게 쓸 수 있는것
+      - static이 없는건, instance의 변수임
+  - 클래스 메소드
+    - 인스턴스가 등장하지 않고, 클래스의 메소드로
+      - public static void sum(~){}
+  - 인스턴스 메소드는 클래스 멤버에 접근 할 수 있다.
+  - 클래스 메소드는 인스턴스 멤버에 접근 할 수 없다.(아직 생성되지 않은 거에 접근하려는거니깐)
 
 </details>
 
