@@ -160,15 +160,33 @@ Java
 <details>
 <summary> 14) 참조 </summary>
 
+- <img src="images/reference1.png" width="30%" height="30%"/> <img src="images/reference2.png" width="30%" height="30%"/>
+
+
+
+ - 복사 vs 참조
+ - 참조는 기본형 데이터 타입 외의 데이터 타입이라고 볼 수 있음
+
 </details>
 
 <details>
 <summary> 15) 제너릭 </summary>
 
+- <img src="images/generic1.png" width="70%" height="70%"/>
+- <img src="images/generic2.png" width="70%" height="70%"/>
+
+
 </details>
 
 <details>
 <summary> 16) collections framework (feat. ArrayList, Hashmap) </summary>
+
+- 자바에서 컬렉션 프레임워크(collection framework)란 다수의 데이터를 쉽고 효과적으로 처리할 수 있는 표준화된 방법을 제공하는 클래스의 집합을 의미합니다.  
+즉, 데이터를 저장하는 자료 구조와 데이터를 처리하는 알고리즘을 구조화하여 클래스로 구현해 놓은 것입니다. 이러한 컬렉션 프레임워크는 자바의 인터페이스(interface)를 사용하여 구현됩니다.
+
+- <img src="images/collections1.png" width="70%" height="70%"/>
+- <img src="images/collections2.png" width="70%" height="70%"/>
+
 
 </details>
 
@@ -187,11 +205,33 @@ Java
 <details>
 <summary>1) 메소드 </summary>
 
+- 사용하는 이유: 재활용/코드량줄고/유지보수 편함
+- parameter(매개변수) : 입력을 위한 매개변수(파라미터), 입력값을 주기 위한
+- 인자 : 입력값 argument
+- return / return 나오면 메소드는 끝남
+  - public static String numbering(int init, int limit) {}
+    - String은 numbering return값의 타입
+    - String[] => 문자열인 배
+  - public statid void main (~~)
+    - void는 return이 없다는뜻
+  
 </details>
 
 <details>
 <summary>2) 객체 지향 프로그래밍이란?  </summary>
 
+- 객체는 그냥 변수와 메소드를 그룹핑한
+- <img src="images/object.png" width="50%" height="50%"/>
+- 객체 지향 프로그래밍 교육은 1) 설계 2) 문법
+  1) 설계 란?
+  - 복잡함 속에서 필요한 관점만을 추출하는 행위를 추상화라고 하며, 프로그램을 만든다는 것은 소프트웨어의 추상화라고 할 수 있다.
+  - <img src="images/abstract.png" width="50%" height="50%"/>
+
+  2) 문법 
+  - 부품화(=분류) : 어디에서든 재활용이 가능하도록 하는거, 객체를 잘 만든다는것, 정답은 없고 적합한 것을 찾아내야 됨
+  - 은닉화, 캡슐화 : 제대로 된 부품이라면, 그것이 어떻게 만들어졌는지 모르는 사람도 사용하는 방법만 알면 쓸 수 있어야함.
+    - 내부의 동작 방법을 단단한 케이스(=객체) 안으로 숨기고, 사용자에게는 그 부품의 사용방법만을 노출 시키는 것
+  - 인터페이스 : 부품과 부품을 서로 교환 할 수 있어야 한다. (ex 모니터-키포드 바꾸기 케이블의 규격이 같아서 가능할 수 있음)
 </details>
 
 <details>
@@ -291,6 +331,10 @@ Java
 
 
 </details>
+
+
+
+
 
 
 

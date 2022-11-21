@@ -5,65 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00c09930-424b-4b04-bed3-19ee9be36d56" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/14_reference/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/14_reference/Copy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/14_reference/Reference.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/14_reference/reference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/14_reference/runReferenceWithMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/15_generic/EmployeeInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/15_generic/EmployeeInfo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/15_generic/Generic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/15_generic/GenericExtends.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/15_generic/GenericNo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/15_generic/Info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/15_generic/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/15_generic/Person2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/15_generic/generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/15_generic/generic2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/01_메소드/method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_intro/ByeClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/01_intro/ByeClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_intro/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/01_intro/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_intro/hello_world.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/01_intro/hello_world.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_variables/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/02_variables/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_variables/Variables.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/02_variables/Variables.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_variables/variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/02_variables/variables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_data_type/DataTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/03_data_type/DataTypes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_data_type/DataTypes2.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/03_data_type/DataTypes2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_data_type/dataTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/03_data_type/dataTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_operators/ArithmeticOperators.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/04_operators/ArithmeticOperators.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_operators/IncrementDecrementOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/04_operators/IncrementDecrementOperator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_operators/LogicalOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/04_operators/LogicalOperator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_operators/RelationalOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/04_operators/RelationalOperator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_operators/operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/04_operators/operators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_strings/Length.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/05_strings/Length.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_strings/LengthReplaceContains.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/05_strings/LengthReplaceContains.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_strings/Long.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/05_strings/Long.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_strings/Strings.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/05_strings/Strings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_strings/strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/05_strings/strings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_user_inputs/Input.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/06_user_inputs/Input.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_user_inputs/input.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/06_user_inputs/input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_conditional_statements/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/07_conditional_statements/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_conditional_statements/calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/07_conditional_statements/calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_switch_cases/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/08_switch_cases/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_switch_cases/switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/08_switch_cases/switch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_array/Copy.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/09_array/Copy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_array/English.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/09_array/English.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_array/Fill.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/09_array/Fill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_array/Searching.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/09_array/Searching.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_array/Sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/09_array/Sorting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_array/array.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/09_array/array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_loop_for_while/DoWhileLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/10_loop_for_while/DoWhileLoop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_loop_for_while/ForLoops.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/10_loop_for_while/ForLoops.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_loop_for_while/While_loop.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/10_loop_for_while/While_loop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_loop_for_while/loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/10_loop_for_while/loops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_arrarylists/ArraryLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/11_arrarylist/ArraryLists.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_arrarylists/array_lists.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/11_arrarylist/array_list.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_hash_map/HashMapClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/12_hash_map/HashMapClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_hash_map/hash_map.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/12_hash_map/hash_map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_OOP_src/AudioBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/13_OOP_src/AudioBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_OOP_src/AudioBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/13_OOP_src/AudioBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_OOP_src/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/13_OOP_src/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_OOP_src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/13_OOP_src/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_OOP_src/Ebook.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/13_OOP_src/Ebook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_OOP_src/Ebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/13_OOP_src/Ebook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_OOP_src/Polymorphism_simple_example/harvard.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/13_OOP_src/Polymorphism_simple_example/harvard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_OOP_src/Polymorphism_simple_example/harvard.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/13_OOP_src/Polymorphism_simple_example/harvard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_OOP_src/Polymorphism_simple_example/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/13_OOP_src/Polymorphism_simple_example/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_OOP_src/Polymorphism_simple_example/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/13_OOP_src/Polymorphism_simple_example/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_OOP_src/Polymorphism_simple_example/school.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/13_OOP_src/Polymorphism_simple_example/school.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_OOP_src/Polymorphism_simple_example/school.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/13_OOP_src/Polymorphism_simple_example/school.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_OOP_src/Polymorphism_simple_example/yale.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/13_OOP_src/Polymorphism_simple_example/yale.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_OOP_src/Polymorphism_simple_example/yale.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/13_OOP_src/Polymorphism_simple_example/yale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_OOP_src/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/13_OOP_src/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_OOP_src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/13_OOP_src/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_OOP_src/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/13_OOP_src/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_OOP_src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.완전 기초 프로그래밍 강좌/13_OOP_src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Language-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Language-Java.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +90,7 @@
       <updated>1668734090489</updated>
       <workItem from="1668734091648" duration="8567000" />
       <workItem from="1668750799041" duration="242000" />
-      <workItem from="1668751043394" duration="5146000" />
+      <workItem from="1668751043394" duration="20537000" />
     </task>
     <servers />
   </component>
