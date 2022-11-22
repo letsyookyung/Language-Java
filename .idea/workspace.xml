@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00c09930-424b-4b04-bed3-19ee9be36d56" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/04_class_instance_member/Static_ex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/05_유효범위/scope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/06_초기화와 생성자/Constructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/07_상속/inheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/08_상속과생성자/super.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/09_overriding/overriding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/10_overloading/overloading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/11_class_path/classPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/01_메소드/method.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +56,7 @@
     &quot;project.structure.last.edited&quot;: &quot;SDK&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;power.mode.ii&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -74,7 +81,12 @@
       <updated>1668734090489</updated>
       <workItem from="1668734091648" duration="8567000" />
       <workItem from="1668750799041" duration="242000" />
-      <workItem from="1668751043394" duration="23826000" />
+      <workItem from="1668751043394" duration="29010000" />
+      <workItem from="1669084074378" duration="2854000" />
+      <workItem from="1669086985098" duration="1826000" />
+      <workItem from="1669093981290" duration="789000" />
+      <workItem from="1669094772642" duration="4375000" />
+      <workItem from="1669101100193" duration="2707000" />
     </task>
     <servers />
   </component>
