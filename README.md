@@ -333,7 +333,7 @@ Java
     - 메소드의 이름
     - 매개변수 숫자/데이터타입/순서
     - 메소드 리턴 타입 
-![](images/over.png)
+
 </details>
 
 <details>
@@ -348,7 +348,7 @@ Java
   - 메소드의 이름 같고, 매개변수는 다르고, 리턴값이 같아야됨?
   - 메소드의 반환값은 메소드를 호출하는 시점에서 전달되지 않는 정보이기 때문에 오버로딩의 대상이 될 수 없다.
   
-- <img src="images/over.png" width="60%" height="60%"/>
+- <img src="images/over.png" width="90%" height="90%"/>
 </details>
 
 <details>
@@ -394,8 +394,8 @@ Java
 
 - 변수/메소드 레벨
   - protected / default 
-    - <img src="images/접근제어자1.png" width="60%" height="60%"/>
-    - <img src="images/접근제어자2.png" width="60%" height="60%"/>
+    - <img src="images/접근제어자1.png" width="70%" height="70%"/>
+    - <img src="images/접근제어자2.png" width="70%" height="70%"/>
 
 - 클래스 레벨 
   - public인 클래스 : 다른 패키지의 클래스에서도 사용할 수 있음, 하나의 소스코드 안에는 하나의 public class만 존재할 수 있음
