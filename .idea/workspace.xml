@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00c09930-424b-4b04-bed3-19ee9be36d56" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/15_abstract/abstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/16_final/CalculatorDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/17_interface/interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/18_다형성/class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/18_다형성/interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/18_다형성/reason.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/18_다형성/workspace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/19_예외/create_exception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/19_예외/exceptions_finally.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/19_예외/throw2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/19_예외/throws.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/19_예외/try_catch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/20_object_class/clone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/20_object_class/equals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/21_상수와enum/constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/21_상수와enum/enumerated_type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.객체 지향 프로그래밍 강좌/21_상수와enum/interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/연습문제/Student Phone Number Book/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +45,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "SDK",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -99,7 +83,7 @@
       <workItem from="1669101100193" duration="3399000" />
       <workItem from="1669163001873" duration="2739000" />
       <workItem from="1669165847189" duration="5417000" />
-      <workItem from="1669173135435" duration="14497000" />
+      <workItem from="1669173135435" duration="15596000" />
     </task>
     <servers />
   </component>
