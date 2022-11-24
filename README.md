@@ -200,6 +200,8 @@ Java
 <summary>2. 객체 지향 프로그래밍 강좌 </summary>
 
  - 강의 : https://opentutorials.org/course/1223
+ - garbage collection 관련 좋은글 : https://d2.naver.com/helloworld/1329
+
 
 ⭐️ Contents ⭐️
 <details>
@@ -406,38 +408,116 @@ Java
 <details>
 <summary>15) Abstract </summary>
 
+- 추상 클래스
+- 상속을 강제하는 일종의 규제
+- 추상 클래스 : 추상 메소드를 하나라도 포함하고 있는 클래스는 추상 클래스가 되고, 자연스럽게 클래스의 이름 앞에 abstract가 붙는다.
+- 추상 메소드 : 메소드의 시그니처만이 정의된 비어있는 메소드, 이 메소드의 구체적인 구현은 하위 클래스에서 오버라이딩 해야 한다는 의미
+- 사용하는 이유 : 여러군데서 바꿔서 사용하려고
 </details>
 
 <details>
 <summary>16) Final  </summary>
+
+- 자주 안쓰임, 절대 변하지 않는 값을 가진 변수 혹은 메소드 등에 쓰임 (ex. pi값)
+- final 메소드가 속한 클래스도 상속이 불가
 
 </details>
 
 <details>
 <summary>17) Interface  </summary>
 
+- abstract, final가 같이 대표적인 규제
+- 어떤 객체가 있고 그 객체가 특정한 인터페이스를 사용한다면 그 객체는 반드시 인터페이스의  메소드들을 구현해야 한다. 만약 인터페이스에서 강제하고 있는 메소드를 구현하지 않으면 이 에플리케이션은 컴파일 조차 되지 않는다.
+- 많은 개발자/사용자 간의 약속을 미리 해두는것?
+- interface의 제어자는 반드시 public 이어야함.
+- 하나의 클래스는 복수개의 인터페이스를 구현할 수 있다.
+- 인터페이스도 다른 인터페이스를 상속 받을 수 있음.
+
+
 </details>
 
 <details>
 <summary>18) 다형성(Polymorphism)  </summary>
+
+- 다형성: 하나의 메소드나 클래스가 있을 때 이것들이 다양한 방법으로 동작하는 것을 의미
+- 1) 메소드 오버로딩과 다형성
+- 2) 클래스와 다형성 
+  - ex) A obj = new B() 상황
+  - 클래스 B를 클래스 A의 데이터 타입으로 인스턴스화 했을 때 클래스 A에 존재하는 맴버만이 클래스 B의 맴버가 된다. 
+  - 클래스 A의 메소드를 오버라이딩한 클래스 B의 메소드 > 클래스 A의 메소드 보다 우선 됨.
+- 3) 이걸 왜 쓰는가?
+  - 인스턴스 c1과 c2를 사용하는 입장에서 두개의 클래스 모두 Calculator인 것처럼 사용할 수 있다.
+  - CalculatorDemo의 execute 메소드는 CalculatorDecoPlus와 CalculatorDecoMinus 클래스의 메소드 run을 호출하면서 그것이 '실행결과'라는 사실을 화면에 표시하는 기능을 가지고 있다. 이 때 메소드 execute 내부에서는 매개변수로 전달된 객체의 메소드 run을 호출하고 있다.
+  - 하나의 클래스(Calculator)가 다양한 동작 방법(ClaculatorDecoPlus, ClaculatorDecoMinus)을 가지고 있는데 이것을 다형성이라고 할 수 있겠다.
+- 4) 인터페이스와 다형성
+  - ex) 스마트폰 을 전화기로만, 게임기로만 => 원하지 않는 기능, 사용하면 안되는 기능을 제한할 수 있음
+
 
 </details>
 
 <details>
 <summary>19) 예외 처리 </summary>
 
+- 문법
+  - try-catch
+  - try-catch-catch-catch-finally(에외여부와 관계없이 언제나 실행되는 것)
+  - finally는 언제? ex) DB 예외
+- 예외 던지기 throws
+  - 어떠한 문제를 처리할 수 없기 때문에 이에 대한 처리를 생성자의 사용자에게 위임하겠다는 의미다. => 어떤 api가 에러를 던지니, 처리하기 위해 받을 수도 있고, 안받아도됨
+  - ![](images/throw1.png)
+- 예외 만들기 throw
+
+  - 예외	사용해야 할 상황  
+  IllegalArgumentException	매개변수가 의도하지 않은 상황을 유발시킬 때  
+  IllegalStateException	메소드를 호출하기 위한 상태가 아닐 때  
+  NullPointerException	매개 변수 값이 null 일 때  
+  IndexOutOfBoundsException	인덱스 매개 변수 값이 범위를 벗어날 때  
+  ArithmeticException	산술적인 연산에 오류가 있을 때
+
+- 어떤건 반드시 예외처리를 하게 되어 있지만, 어떤건 예외처리를 하지 않아도 되게 되어있음.
+  - Throwable : 클래스 Throwable은 범 예외 클래스들의 공통된 조상이다.
+  - Error : 에러는 여러분의 애플리케이션의 문제가 아니라 그 애플리케이션이 동작하는 가상머신에 문제가 생겼을 때 발생하는 예외다.
+  - Exception : 결국 우리의 관심사는 Exception 클래스와 RuntimeException 클래스로 좁혀진다.
+  - ![](images/exception1.png)
+  - ![](images/exception2.png)
+  - ![](images/exception3.png)
+- 예외를 만들기 전에 해야 할 것은 자신의 예외를 checked로 할 것인가? unchecked로 할 것인가를 정해야 한다
+  - checked 예외 사용 경우 : API 쪽에서 예외를 던졌을 때 API 사용자 쪽에서 예외 상황을 복구 할 수 있다면 checked 예외를 사용한다.
+  - unchecked 예외 사용 경우: 사용자가 API의 사용방법을 어겨서 발생하는 문제거나 예외 상황이 이미 발생한 시점에서 그냥 프로그램을 종료하는 것이 덜 위험 할 때 unchecked를 사용한다.
 </details>
 
 <details>
 <summary>20) Object 클래스 </summary>
+
+- class O {} = class O extends Object 인것
+- 1) toString 
+  - 오버라이딩해서 상황에 맞게 다르게 할 수 있음
+  - super.toString + 새로 구현한것도 가능
+- 2) equals 객체를 비교하는게 아니라, 값만 비교함
+    - (Student)obj 는 메소드 equals로 전달된 obj의 데이터 타입이 Object이기 때문에 이를 Student 타입으로 형 변환하는 코드다.  아래 코드를 통해서 현재 객체의 변수 name과 equals의 인자로 전달된 객체의 변수 name을 비교한 결과를 Boolean 값으로 리턴하고 있다.
+    - 1. 객체 간에 동일성을 비교하고 싶을 때는 ==를 사용하지 말고 equals를 이용하자.
+    - 2. equals를 직접 구현해야 한다면 hashCode도 함께 구현해야 함을 알고 이에 대한 분명한 학습을 한 후에 구현하자.
+- 3) finalize
+  - 객체가 소멸될 때 호출되기로 약속된 메소드
+  - 많이 안쓰니 조심히 써야함
+  - RAM을 효율적으로 사용하기 위해서, 더이상 사용하지 않는 데이터를 관리해야 => 가비지 컬렉션, 자바가 정기적으로 순찰하며 삭제함
+- 4) clone
+  - clone은 복제라는 뜻이다. 어떤 객체가 있을 때 그 객체와 똑같은 객체를 복제해주는 기능이 clone 메소드의 역할
+  - 클래스 Student가 인터페이스 Cloneable을 구현.
+  - 인터페이스 Cloneable의 코드는 실제 내용비어있는 인터페이스다.
+  - 그럼에도 불구하고 이것을 사용한 이유는 클래스 Student가 복제 가능하다는 것을 표시하기 위한 것임.
 
 </details>
 
 <details>
 <summary>21) 상수와 enum </summary>
 
-</details>
+- ex)  상수 그룹이 2개임
 
+- 인터페이스를 이렇게 사용할 수 있는 것은 인터페이스에서 선언된 변수는 무조건 public static final의 속성을 갖기 때문이다.
+- 열거형은 어떤 상수 그룹의 특성, 행동들을 열거하여 표현할 수 있음.
+
+</details>
 
 </details>
 
